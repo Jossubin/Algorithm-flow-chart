@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2023-05-27T16:38:12.771Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="ruoWVGWmBYNdr0Ju4jlb" version="21.3.4" type="github">
+  <diagram name="페이지-1" id="-zxOk8ARb7Q2MgamFepX">
+    <mxGraphModel dx="954" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="94UtGktajXa_DtkbCZu2-1" value="bubbleSort (A : list)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="94UtGktajXa_DtkbCZu2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="94UtGktajXa_DtkbCZu2-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="94UtGktajXa_DtkbCZu2-2" value="&lt;div style=&quot;font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;def&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;bubbleSortRec&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;A&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;n&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;):&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="130" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="94UtGktajXa_DtkbCZu2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="94UtGktajXa_DtkbCZu2-5" target="94UtGktajXa_DtkbCZu2-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="94UtGktajXa_DtkbCZu2-5" value="&lt;div style=&quot;font-weight: normal; text-align: start; color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;i &lt;span style=&quot;color: rgb(197, 134, 192);&quot;&gt;in&lt;/span&gt; &lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;range&lt;/span&gt;(&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;n&lt;/span&gt;-&lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;1&lt;/span&gt;):&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="94UtGktajXa_DtkbCZu2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="94UtGktajXa_DtkbCZu2-5" source="94UtGktajXa_DtkbCZu2-6" target="94UtGktajXa_DtkbCZu2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="94UtGktajXa_DtkbCZu2-6" value="&lt;div style=&quot;font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;A&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;] &amp;gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;A&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;]:&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="94UtGktajXa_DtkbCZu2-5">
+          <mxGeometry x="50" y="30" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="94UtGktajXa_DtkbCZu2-8" value="&lt;div style=&quot;font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;A&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;], &lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;A&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;] = &lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;A&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;], &lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;A&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;]&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="94UtGktajXa_DtkbCZu2-5">
+          <mxGeometry x="20" y="140" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="94UtGktajXa_DtkbCZu2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="94UtGktajXa_DtkbCZu2-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="94UtGktajXa_DtkbCZu2-11" value="&lt;div style=&quot;font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;n&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt; &amp;gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="94UtGktajXa_DtkbCZu2-13" value="&lt;div style=&quot;font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;bubbleSortRec&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;A&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;n&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="590" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="94UtGktajXa_DtkbCZu2-14" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="140" width="50" height="520" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
